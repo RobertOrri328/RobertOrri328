@@ -1,0 +1,567 @@
+/* =============================== */
+/* ============ Body ============= */
+/* =============================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ==================== */
+/* ==== Bakgrunnar ==== */
+
+.BODY1 {
+    background-image: url('images/rock-climber-ascending.png'); background-position: right 20% center;
+    }
+.BODY2 {
+    background-image: url('images/BoulderingBG.jpg'); background-position: center 30%;
+    }
+.BODY3 {
+    background-image: url('images/AlexHonnold.png'); background-position: center 30%;
+    }
+.BODY4 {
+    background-image: url('images/AlexFreeSoloBG.avif'); background-position: right 10% center;
+    }
+
+
+/* =============== */
+/* ==== Annað ==== */
+
+h2 {
+    text-align: center;
+    font-family: "Big Shoulders";
+}
+
+a {
+    color: rgb(0, 191, 255);
+}
+a:hover {
+    color: lightblue;
+}
+
+
+/* ================================= */
+/* ============ HEADER ============= */
+/* ================================= */
+
+header {
+    text-align: center;
+    font-family: "Big Shoulders";
+    letter-spacing: 3.5px;
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, rgb(235, 112, 41), rgba(255, 255, 255, 0));
+}
+
+header h1 {
+    margin: 0;
+    padding: 25px;
+}
+
+
+/* ================================= */
+/* ============== NAV ============== */
+/* ================================= */
+
+.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(107, 65, 44);
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 1em;
+}
+
+.topnav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav ul li {
+    padding: 0.25em;
+    text-align: center;
+}
+
+.topnav ul li:hover {
+    background-image: radial-gradient(rgb(234, 93, 12), rgba(179, 65, 16, 0));
+}
+
+.topnav ul li a {
+    font-family: "Big Shoulders";
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.li4 {
+    border-radius: 0 0 12px 12px;
+}
+
+
+/* ================================= */
+/* ============== MAIN ============= */
+/* ================================= */
+
+main {
+    background-image: linear-gradient(to top, rgba(231, 122, 50, 0.63), rgb(136, 51, 15));
+    border-radius: 12px;
+    padding: 1em;
+    font-family: "Roboto";
+}
+
+main section {
+    padding: 1em;
+}
+
+main .ARTICLE2 {
+    margin-right: 2em;
+}
+main .ARTICLE3 {
+    margin-bottom: 5em;
+}
+
+.ARGH{
+    display: block;
+}
+
+
+/* ======================= */
+/* ==== Maps & Images ==== */
+
+.GoogleMaps1, .GoogleMaps2,
+.Kort600Klifur, .AlexMap,
+.GrjotglimaExtra, .UtiGrjotglimaExtra,
+.AlexHonnold999, .MClimbing,
+.WClimbing, .OutClimber,
+.Munkathvera, .FinalAHonnald {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+/* === Maps === */
+.GoogleMaps1 {
+    float: right;
+    margin: 1em;
+    width: 175px;
+    height: 200px;
+}
+.GoogleMaps2 {
+    display: none;
+}
+.Kort600Klifur {
+    float: right;
+    margin: 1em;
+    width: 205px;
+    height: 150px;
+}
+.AlexMap {
+    float: left;
+    margin: 0 1em 0 0;
+    width: 175px;
+    height: 140px;
+}
+.Munkathvera{
+    float: left;
+    margin: 0 1em 0 0;
+    width: 175px;
+    height: 110px;
+}
+
+
+/* === Images === */
+.GrjotglimaExtra {
+    float: right;
+    margin: 1em;
+    width: 150px;
+    height: 105px;
+}
+.UtiGrjotglimaExtra {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 200px;
+    height: 170px;
+}
+.AlexHonnold {
+    float: right;
+    margin: 1em;
+}
+.honnold{
+    text-align: center;
+}
+.AlexHonnold999{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 0 1em 0 0;
+}
+.MClimbing{
+    width: 150px;
+    height: 210px;
+    float: left;
+    margin: 0 1em 0 0;
+}
+.WClimbing{
+    width: 150px;
+    height: 180px;
+    float: right;
+    margin: 0 0 0 1em;
+}
+.OutClimber{
+    height: 150px;
+    width: 180px;
+    float: left;
+    margin: 0 1em 0 0;
+}
+.FinalAHonnald{
+    height: 190px;
+    width: 120px;
+    float: right;
+    margin-left: 1em;
+}
+
+.ExtraIMG1,
+.ExtraIMG2 {
+    display: none;
+}
+
+
+/* ================================= */
+/* ============= FOOTER ============ */
+/* ================================= */
+
+footer {
+    font-family: "Big Shoulders";
+    padding: 1em;
+    background-color: rgba(107, 65, 44, 0.925);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(73, 36, 22));
+    margin-top: 40em;
+}
+.H3 {
+    text-align: left;
+}
+dt {
+    margin-top: 1em;
+}
+hr {
+    display: none;
+    border: 1px solid black;
+}
+.Big{
+    text-align: center;
+}
+
+
+/* ================================================ */
+/* ========== Fyrir mismunandi skjástærðir ======== */
+/* ================================================ */
+
+
+/* ============= */
+/* === 400px === */
+
+@media (min-width: 400px) {
+
+    /* === Myndir === */
+    .GrjotglimaExtra {
+        margin: 0 0 1em 1em;
+        width: 200px;
+        height: 140px;
+    }
+}
+
+
+/* ============= */
+/* === 600px === */
+
+@media (min-width: 600px) {
+
+    /* === TopNav === */
+    .li4 {
+        border-radius: 0;
+    }
+    .topnav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .topnav ul li {
+        flex: 1;
+        padding: 1em;
+        border-radius: 12px;
+    }
+
+    /* === Myndir === */
+    .ExtraIMG1 {
+        display: block;
+        float: left;
+        margin: 0 1em 0 0;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .AlexHonnold{
+        float: none;
+    }
+    .WClimbing{
+        width: 130px;
+        height: 170px;
+    }
+    .IMGRight{
+        text-align: right;
+    }
+    .GrjotglimaExtra {
+        width: 230px;
+        height: 150px;
+        float: none;
+    }
+    .UtiGrjotglimaExtra {
+        width: 250px;
+        height: 187px;
+        float: none;
+    }
+
+    /* === Kort === */
+    .Kort600Klifur {
+        float: none;
+    }
+    .AlexMap {
+        float: none;
+        display: block;
+        margin: 1em auto;
+    }
+    .Munkathvera{
+        float: none;
+        width: 270px;
+        height: 170px;
+    }
+
+
+    /* === Main === */
+    .MAIN2,
+    .MAIN4 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .MAIN3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .MAIN3 article {
+        margin-right: 1em;
+    }
+    .MAIN3 aside {
+        margin-left: 1em;
+    }
+    .Alex {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 1em;
+    }
+    main .ARTICLE3 {
+        margin-bottom: 0;
+    }
+
+
+    /* === Footer === */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .H3 {
+        text-align: center;
+    }
+    hr {
+        display: block;
+    }
+    .HR {
+        display: none;
+    }
+}
+
+
+/* ============= */
+/* === 660px === */
+
+@media (min-width: 660px) {
+
+    /* === Myndir === */
+    .GrjotglimaExtra {
+        float: right;
+    }
+    .UtiGrjotglimaExtra {
+        float: left;
+    }
+    .WClimbing{
+        width: 165px;
+        height: 210px;
+    }
+
+    /* === Kort === */
+    .AlexMap{
+        width: 180px;
+    }
+}
+
+
+/* ============= */
+/* === 731px === */
+
+@media (min-width: 731px) {
+
+    /* === Kort === */
+    .GoogleMaps1 {
+        display: none;
+    }
+    .GoogleMaps2 {
+        display: block;
+        margin: 1em auto;
+        width: 300px;
+        height: 200px;
+    }
+    .AlexMap{
+        width: 200px;
+    }
+
+    /* === Myndir === */
+    .ExtraIMG1 {
+        display: none;
+    }
+    .ExtraIMG2 {
+        display: block;
+        float: left;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 0 0 2em 0;
+    }
+
+    /* === Main ===*/
+    .ARTICLE1 {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+    }
+}
+
+
+/* ============= */
+/* === 794px === */
+
+@media (min-width: 794px) {
+
+    /* === Kort === */
+    .Kort600Klifur {
+        float: right;
+        width: 125px;
+        height: 150px;
+    }
+}
+
+
+/* ============= */
+/* === 843px === */
+
+@media (min-width: 842px) {
+
+    /* === Kort === */
+    .GoogleMaps2 {
+        float: right;
+        margin: 1em;
+    }
+    .AlexMap{
+        width: 225px;
+    }
+    
+
+    /* === Myndir === */
+    .GrjotglimaExtra {
+        width: 300px; height: 210px;
+    }
+    .AlexHonnold{
+        float: right;
+    }
+
+    /* === Main === */
+    article {
+        grid-template-columns: 2fr 4fr;
+    }
+}
+
+
+/* ============= */
+/* === 980px === */
+
+@media (min-width: 980px) {
+
+    /* === Body ===*/
+    body {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    /* === Footer === */
+    footer {
+        border-radius: 12px 12px 0 0;
+        margin-top: 32em;
+    }
+
+    /* === Kort === */
+    .AlexMap{
+        width: 260px;
+    }
+    .Munkathvera{
+        float: left;
+        margin: 0 1em 0 0;
+    }
+
+    /* === Myndir === */
+    .OutClimber{
+        width: 220;
+        height: 180;
+    }
+}
+
+
+/* ======================================== */
+/* === Fyrir bilið milli footer og main === */
+
+
+/* ============= */
+/* === 667px === */
+
+@media (max-height: 667px) {
+
+    /* === Footer === */
+    footer {
+        margin-top: 35em;
+    }
+}
+
+
+/* ============= */
+/* === 800px === */
+
+@media (max-height: 800px) {
+
+    /* === Footer === */
+    footer {
+        margin-top: 43.31em;
+    }
+}
+
+
+/* ============= */
+/* === 850px === */
+
+@media (min-height: 850px) {
+
+    /* === Footer === */
+    footer {
+        margin-top: 50em;
+    }
+}
